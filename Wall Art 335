@@ -1,0 +1,33 @@
+function setup() {
+  createCanvas(400, 400); 
+  background("black");
+}
+
+function draw() {
+
+  rectMode(CENTER); // Sets the origin to the center of the shape
+  noFill(); 
+  stroke("white"); 
+  strokeWeight(1);
+  rect(200, 200, 200); 
+
+  /*let x=0;
+  while (x < 100){ // 100 is where the lines stops
+    line (x, 0, x, height);
+    x = x + 5; // the spacing of the lines*/
+  
+  for(i = 0; i < 105; i += 5) // left side vert line
+    line(i,0,i,height);
+ 
+  for(a = 300; a > 100; a += 5) // right side vert line
+    line(a,0,a,height);
+  
+  for(c = 105; c < 400; c += 5)
+    line(c,300,c,height); // bottom vert lines
+  
+  for(d = 105; d < 400; d += 5)
+    line(d, 0, d, 100);
+  
+  for(b = 100/* this made the lines go up higher*/; b <= 295; b += 5)
+    line(100, b, 300,b); // horizontal lines in box
+  }
