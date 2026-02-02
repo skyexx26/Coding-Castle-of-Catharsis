@@ -1,0 +1,49 @@
+/*alright so this my clock! I wanted to have a timer going counting from 2026 onward and then saying land lost at 2100 bc thats when 95% of the country Tuvalu will have been lost to the ocean. But I bit off more than I could chew and I didn't ask for help. plus to be real I should have started this a tad earlier. but trust i have learned and i will be up in office hours now. Lowk I think i was close tho! im pretty sure its framerate being the wrong command bc it seems to apply like a blanket. Im able to get the 'ocean' to move and the clock to work seperate of each other.
+But anyway the blue block is the ocean and it takes around 74 secondsish for the land to be covered. 74 is the number of years that scientists have estimated we have left with Tuvalu.
+*/
+
+
+let timer = 2026
+
+function draw() {
+  createCanvas(400,400);
+  background(13,98,92);
+  textAlign(CENTER);
+  textSize(25);
+  text(timer,width/2,height/2);
+  
+  if (frameCount % 60 == 0 && timer > 0) { 
+    timer ++;
+  }
+  if (timer == 2100) { // should stop at 2100, ahh didnt work but lowk time goes on anyway
+    text("Land Lost", width/2, height*0.7);
+  }
+}
+
+let startLine = -250;
+let finishLine = 250;
+
+let rectX = startLine;
+let rectY = finishLine;
+
+function setup() {
+  createCanvas(500,500);
+  
+  frameRate(1);
+  
+}
+
+function draw() {
+  
+  background(13,98,92);
+  
+  rectMode(CENTER);
+  fill("blue");
+  rect(rectX,rectY,500,500);
+  
+  rectX +=6; //no comprende
+  
+  if (rectX > finishLine) {
+    noLoop();
+  }
+}
