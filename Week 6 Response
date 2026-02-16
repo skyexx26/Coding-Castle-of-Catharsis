@@ -1,0 +1,62 @@
+ok! so this is what ive come up up with so far for the next project. The reworking of media project. I'm attempting to recreate The Arctic Monkey's AM Album via html text.
+I was able to find the font they use aaand more importantly I figured how to translate that into html code which im super stoked on. It did fight me for sure.
+Some of the text adopted the new font no problem but there was some parts that just didn't switch. I lowk forgot how I fixed it but I just messed around deleting <em>'s and <p>'s. 
+The next problem I ran into/my current problem is understanding 'padding' vs 'margin' vs the directionalities. AKA 'margin top' 'padding bottom'. 
+Which is extra confusing since I'm using vertical/vert writing mode so things aren't moving in a traditional sense. Alsoooo sometimes padding moves the canvas and not the text??
+Again can't remember how I wound up moving the text down (should really do these reflections while I'm working ._. I think it was the padding) 
+buuut my next challenge is staggering the text so it looks like the soundwave. When I work on it again my first thought is too add a bunch of page breaks and/or make a div so that I
+can edit two different groups of text independently?? Problems for another day.
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <style>
+
+      body {
+        width: 400px;
+        padding: 0px;
+        
+      }
+
+      .vert{
+        writing-mode:tb-rl;
+        background: black;
+        width: 450px;
+        height: 450px;
+        padding: 50px;
+      }
+      
+      p {
+        font-family: "Helvetica Black", sans-serif;
+        font-size: 14px;
+        color: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div class="vert">
+      <strong>
+      <p>  <b>
+      <p> I'M A PUPPET
+        <p> ON A STRING TRACY
+      <p> ISLAND TIME TRAVELIN' </p>
+      <p>DIAMOND CUTTER</p>
+      <p>SHAPED HEART
+      <p>ACHES COME</p>
+        <p> TO FIND</p>
+        <p> YOU </p>
+        <p> FOUR </p>
+        <p> IN </p>
+        <p> SOME </p>
+        <p> VELVET </p>
+        <p> MORNIN' YEARS </p>
+        <p> TOO LATE SHE'S A </p>
+        <p> SILVER LININ' </p>
+        </div> </strong>
+  </body>
+</html>
