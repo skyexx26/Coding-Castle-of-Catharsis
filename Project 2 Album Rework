@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <style>
+
+      body {
+        padding: 0px;
+        .blacktxt { color: black; font-size: 14px}
+      }
+
+      .vert{
+        writing-mode:tb-rl;
+        background: black;
+        width: 350px;
+        height: 350px;
+        padding: 20px
+      }
+      
+      .blacktxt { margin-top: -10px; margin-left: 10px;}
+    
+      
+      p {
+        font-family: "Helvetica Black", sans-serif;
+        font-size: 12px;
+        line-height: 0.6em;
+        color: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div class="vert">
+      <strong>
+      <p>  <b>
+      <p> <span class="blacktxt"> spacing spacing spac </span> I'M A 
+        <p> <span class="blacktxt"> spacing spacing s </span> PUPPET ON
+      <p> <span class="blacktxt"> spacing spacing</span> A STRING TRACY </p>
+      <p> <span class="blacktxt"> spacing spac</span> ISLAND TIME TRAVELIN' </p>
+      <p> <span class="blacktxt"> spacing sp</span> DIAMOND CUTTER SHAPED 
+      <p> <span class="blacktxt"> spacing spa </span> HEART ACHES COME TO </p>
+        <p> <span class="blacktxt"> spacing spaci </span> FIND YOU FOUR IN </p>
+        <p> <span class="blacktxt"> spacing spacing  </span> SOME VELVET </p>
+        <p> <span class="blacktxt"> spacing spacing s</span> MORNIN' </p>
+        <p> <span class="blacktxt"> spacing spacing sp </span> YEARS </p>
+        <p> <span class="blacktxt"> spacing spacing spa </span> TOO </p>
+        <p> <span class="blacktxt"> spacing spacing s</span> LATE SHE'S </p>
+        <p> <span class="blacktxt"> spacing spacing </span> A SILVER LININ' </p>
+        <p> <span class="blacktxt"> spacing spac </span> LONE RANGER RIDIN' </p>
+        <p> <span class="blacktxt"> spacing sp </span> THROUGH AN OPEN SPACE</p>
+        <p> <span class="blacktxt"> spacing spa </span> IN MY MIND WHEN SHE'S </p>
+        <p> <span class="blacktxt"> spacing spacin </span> NOT RIGHT THERE 
+        <p> <span class="blacktxt"> spacing spacing s </span> BESIDE ME I  </p>
+          
+        </div> </strong> 
+  </body>
+</html>
