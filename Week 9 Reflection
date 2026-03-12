@@ -1,0 +1,10 @@
+alrightyyy. Still working on my final adding more features. I don't remember where I left off because everything blurs together. 
+I wanted to make the font comic sans for this for the bit but p5js didn't have it programmed so I had to download it and then upload it.
+So that was one challenge done. From there to make things extra funky and 2000's esque I wanted to make a portion of the text spin 
+but I ran into issues with WEBGL and it not recognizing that I had all the right files so I abandoned that ship. From there I was toying
+with the idea of having an image to trace for people to add an extra level of difficulty, so I added a picture of a horse. The horse is 
+the white Arabian from RDR2 because it's one of my favorite games. I messed with the aspect ratio of the horse to make it look extra crunchy 
+to match the rest of the aesthetic of the drawing machine. I was going to just have it centered at first but I wanted something goofy. 
+But Tazzie did help me with the centering commands I just wound up not using them. Also in the loud room we figured out how to help me have 
+users save their artwork to their computer. Did I accidently put it in the draw loop at first and had it save over and over and over again around 
+83 times also yes. Then I wanted to have a picture of Arthur Morgan as the cursor but I hit a wall so I made that my stopping point.
