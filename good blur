@@ -1,0 +1,14 @@
+let x=0;
+let y=0;  
+
+function setup() {
+  createCanvas(500, 500)
+}
+
+function draw(){
+  
+  fill(56,146,198,8); // fourth variable should change opacity                                  mess w that later
+  noStroke();
+  rect(x,0,50,500); // I have to change the name of rect? bc                          there's two yeah? nope I made two
+  x+=.11
+}
